@@ -224,7 +224,7 @@ the `install` step:
 ~~~~
 
 On **Windows**, you'll also need to specify a 64-bit generator e.g. `-G"Visual
-Studio 15 2017 Win64"`
+Studio 15 2017 Win64"` or `-G"Visual Studio 16 2019"`.
 
 To build, open the `Extempore.sln` file and build the `ALL_BUILD` target, then
 the `INSTALL` target. If the install step doesn't work, you can try directly
