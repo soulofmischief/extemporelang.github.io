@@ -220,7 +220,7 @@ the `install` step:
 
 ~~~~ sourceCode
     mkdir cmake-build && cd cmake-build
-    cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_TARGETS_TO_BUILD=X86 -DLLVM_ENABLE_TERMINFO=OFF -DLLVM_ENABLE_ZLIB=OFF -DCMAKE_INSTALL_PREFIX=c:/path/to/extempore/llvm .. && make && make install
+    cmake --build . -DCMAKE_BUILD_TYPE=Release -DLLVM_TARGETS_TO_BUILD=X86 -DLLVM_ENABLE_TERMINFO=OFF -DLLVM_ENABLE_ZLIB=OFF -DCMAKE_INSTALL_PREFIX=c:/path/to/extempore/llvm .. && make && make install
 ~~~~
 
 On **Windows**, you'll also need to specify a 64-bit generator e.g. `-G"Visual
