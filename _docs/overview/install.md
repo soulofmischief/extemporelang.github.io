@@ -45,7 +45,7 @@ then here are some one-liner build commands:
     git clone https://github.com/digego/extempore && mkdir extempore/cmake-build && cd extempore/cmake-build && cmake .. && make install
 
     # Windows
-    git clone https://github.com/digego/extempore && mkdir extempore/cmake-build && cd extempore/cmake-build && cmake -G"Visual Studio 15 2017 Win64" .. && cmake --build . --target ALL_BUILD --config Release
+    git clone https://github.com/digego/extempore && mkdir extempore\cmake-build && cd extempore\cmake-build && cmake -G"Visual Studio 15 2017 Win64" .. && cmake --build . --target ALL_BUILD --config Release
 ~~~~
 
 If you have problems, check out the platform-specific build notes below.
