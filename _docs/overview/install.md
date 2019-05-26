@@ -212,11 +212,8 @@ apply the `extempore-llvm-3.8.0.patch` in `extras/`:
 
 ~~~~ sourceCode
     cd /path/to/llvm-3.8.0.src
-    patch -p0 < /path/to/extempore/extras/extempore-llvm-3.8.0.patch
+    patch -p0 -i /path/to/extempore/extras/extempore-llvm-3.8.0.patch
 ~~~~
-
-On **Windows**, the `<` redirection will work with `cmd.exe`, but not
-PowerShell.
 
 Then build LLVM, moving the libraries into `/path/to/extempore/llvm` as part of
 the `install` step:
