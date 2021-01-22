@@ -72,11 +72,11 @@ are:
 **Audio**
 
 -   `examples/core/audio_101.xtm`
--   `examples/core/polysynth.xtm`
--   `examples/external/electrofunk.xtm`
--   `examples/external/portmidi.xtm`
 -   `examples/core/sampler.xtm`
 -   `examples/core/sndfile.xtm`
+-   `examples/contrib/polysynth.xtm`
+-   `examples/external/electrofunk.xtm`
+-   `examples/external/portmidi.xtm`
 
 **Graphics**
 
