@@ -37,7 +37,7 @@ We can of course recompile `dsp` on-the-fly:
 (bind-func dsp
   (let ((oscil (osc_c 0.0)))
     (lambda (in:float time:i64 chan:i64 dat:float*)
-      (if (= chan 1)         ;; swith from left channel to right channel
+      (if (= chan 1)         ;; switch from left channel to right channel
           (oscil 0.3 330.0)  ;; change to 330.0 hz
           0.0))))
 ~~~~
